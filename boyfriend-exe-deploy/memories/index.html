@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<meta name="theme-color" content="#070a24">
+<meta name="robots" content="noindex,nofollow">
+<title>Memory Portal</title>
+<link rel="icon" href="../assets/favicon.svg" type="image/svg+xml">
+<link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+<canvas id="sky" aria-hidden="true"></canvas>
+<main class="page">
+  <p class="kicker" style="font:700 .78rem var(--mono);letter-spacing:.14em;color:var(--lav)">EXHIBIT ROOM</p>
+  <h1>The Memory Portal ✨</h1>
+  <p class="lead">Tap a photo to take a closer look.</p>
+  <div class="wall" id="wall"></div>
+  <a class="btn" id="nextLink" href="../hotline/">Okay, enough being cute. Next surprise →</a>
+</main>
+<dialog id="dlg" aria-label="Photo">
+  <div class="big"><div class="ph" id="bigPh"></div><p id="bigCap"></p></div>
+  <div class="dnav">
+    <button class="btn ghost" id="prev" type="button" aria-label="Previous photo">←</button>
+    <button class="btn" id="close" type="button">Close</button>
+    <button class="btn ghost" id="nxt" type="button" aria-label="Next photo">→</button>
+  </div>
+</dialog>
+<script type="module" src="../js/memories.js"></script>
+</body>
+</html>

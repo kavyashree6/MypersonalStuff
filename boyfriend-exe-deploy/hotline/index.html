@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<meta name="theme-color" content="#070a24">
+<meta name="robots" content="noindex,nofollow">
+<title>The Girlfriend Hotline</title>
+<link rel="icon" href="../assets/favicon.svg" type="image/svg+xml">
+<link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+<canvas id="sky" aria-hidden="true"></canvas>
+<main class="page" style="max-width:520px">
+  <div class="ring" id="ring"><div class="art"><img id="herArt" alt="Illustration of your girlfriend wearing a hotline headset"></div></div>
+  <h1>WELCOME TO THE GIRLFRIEND HOTLINE 💗</h1>
+  <p class="lead">For emergencies involving missing me, bad days, excessive cuteness, or a sudden need for affection.</p>
+
+  <section class="player" id="player" aria-label="Voice message">
+    <div class="viz" id="viz" aria-hidden="true"></div>
+    <div class="prog"><span id="cur">0:00</span><input id="seek" type="range" min="0" max="100" step="0.1" value="0" aria-label="Seek"><span id="dur">0:00</span></div>
+    <div class="ctrl" style="margin-top:.8rem">
+      <button class="btn play" id="play" type="button" aria-label="Play voice message">▶</button>
+      <button class="btn ghost" id="replay" type="button">↺ Replay</button>
+    </div>
+    <div class="soon" id="soon" hidden>Voice message coming soon 💌 She's still recording it.</div>
+  </section>
+
+  <p class="side">For emergencies, press play. Side effects may include missing me and smiling uncontrollably.</p>
+
+  <section class="song">
+    <p class="kicker" style="font:700 .78rem var(--mono);letter-spacing:.14em;color:var(--lav)">OUR SONG</p>
+    <a class="btn" id="song" href="#" target="_blank" rel="noopener noreferrer"></a>
+  </section>
+</main>
+<script type="module" src="../js/hotline.js"></script>
+</body>
+</html>

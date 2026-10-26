@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 420" preserveAspectRatio="xMidYMid slice"><style>
+.tw{animation:tw 3.2s ease-in-out infinite}
+.fl{animation:fl 6s ease-in-out infinite;transform-box:fill-box;transform-origin:center}
+.bl{animation:bl 5.5s infinite;transform-box:fill-box;transform-origin:center}
+.sw{animation:sw 5s ease-in-out infinite;transform-box:fill-box;transform-origin:center}
+.pet{animation:pet 9s linear infinite}
+.pop{animation:pop 2.6s ease-in-out infinite;transform-box:fill-box;transform-origin:center}
+.fk{animation:fk .35s ease-in-out infinite alternate;transform-box:fill-box;transform-origin:50% 100%}
+.sh{animation:sh 7s ease-in infinite}
+@keyframes tw{0%,100%{opacity:.2}50%{opacity:1}}
+@keyframes fl{0%,100%{transform:translateY(0)}50%{transform:translateY(-14px)}}
+@keyframes bl{0%,93%,100%{transform:scaleY(1)}96%{transform:scaleY(.08)}}
+@keyframes sw{0%,100%{transform:rotate(-1.6deg)}50%{transform:rotate(1.6deg)}}
+@keyframes pet{0%{transform:translate(0,-30px) rotate(0);opacity:0}10%{opacity:.9}100%{transform:translate(-60px,780px) rotate(300deg);opacity:.9}}
+@keyframes pop{0%,100%{transform:scale(.85)}50%{transform:scale(1.15)}}
+@keyframes fk{from{transform:scale(1,1)}to{transform:scale(.88,1.12)}}
+@keyframes sh{0%{transform:translate(0,0);opacity:0}4%{opacity:1}14%{transform:translate(-260px,150px);opacity:0}100%{opacity:0}}
+@media (prefers-reduced-motion:reduce){*{animation:none!important}}
+</style><defs><pattern id="st" width="10" height="10" patternUnits="userSpaceOnUse"><rect width="10" height="10" fill="#cddbf6"/><rect width="3" height="10" fill="#94acdc"/></pattern>undefined</defs><ellipse cx="250" cy="388" rx="200" ry="22" fill="#1b1550"/><ellipse cx="250" cy="380" rx="200" ry="22" fill="#e9defa"/>
+     <path d="M80,300V360C80,380 420,380 420,360V300Z" fill="#f7a8c8"/><ellipse cx="250" cy="300" rx="170" ry="26" fill="#ffc7dc"/>
+     <path d="M80,300q20,30 40,0t40,0 40,0 40,0 40,0 40,0 40,0 40,0 40,0 40,0Z" fill="#fff0f6"/>
+     <path d="M120,250V300C120,318 380,318 380,300V250Z" fill="#fff0f6"/><ellipse cx="250" cy="250" rx="130" ry="22" fill="#fff"/>
+     <path d="M120,250q16,26 32,0t32,0 32,0 32,0 32,0 32,0 32,0 32,0Z" fill="#c9a8ff"/>
+     <g transform="translate(150 336) scale(0.5)"><path class="" style="animation-delay:0s" d="M0,-6C-10,-18-26,-4 0,16 26,-4 10,-18 0,-6Z" fill="#fff"/></g><g transform="translate(200 344) scale(0.5)"><path class="" style="animation-delay:0s" d="M0,-6C-10,-18-26,-4 0,16 26,-4 10,-18 0,-6Z" fill="#fff"/></g><g transform="translate(250 336) scale(0.5)"><path class="" style="animation-delay:0s" d="M0,-6C-10,-18-26,-4 0,16 26,-4 10,-18 0,-6Z" fill="#fff"/></g><g transform="translate(300 344) scale(0.5)"><path class="" style="animation-delay:0s" d="M0,-6C-10,-18-26,-4 0,16 26,-4 10,-18 0,-6Z" fill="#fff"/></g><g transform="translate(350 336) scale(0.5)"><path class="" style="animation-delay:0s" d="M0,-6C-10,-18-26,-4 0,16 26,-4 10,-18 0,-6Z" fill="#fff"/></g>
+     <circle cx="170" cy="238" r="9" fill="#e8456f"/><circle cx="167" cy="235" r="2.5" fill="#fff" opacity=".6"/><circle cx="250" cy="244" r="9" fill="#e8456f"/><circle cx="247" cy="241" r="2.5" fill="#fff" opacity=".6"/><circle cx="330" cy="238" r="9" fill="#e8456f"/><circle cx="327" cy="235" r="2.5" fill="#fff" opacity=".6"/>
+     <rect x="164" y="150" width="12" height="52" rx="3" fill="#c9a8ff"/><ellipse cx="170" cy="132" rx="22" ry="30" fill="#ffd98a" opacity=".25"/><path class="fk" style="animation-delay:0s" d="M170,106C180,124 178,146 170,148C162,146 160,124 170,106Z" fill="#ffb347"/><path class="fk" style="animation-delay:0s" d="M170,124C174,134 173,144 170,146C167,144 166,134 170,124Z" fill="#fff3b0"/><rect x="244" y="150" width="12" height="52" rx="3" fill="#ffd98a"/><ellipse cx="250" cy="132" rx="22" ry="30" fill="#ffd98a" opacity=".25"/><path class="fk" style="animation-delay:0.12s" d="M250,106C260,124 258,146 250,148C242,146 240,124 250,106Z" fill="#ffb347"/><path class="fk" style="animation-delay:0.12s" d="M250,124C254,134 253,144 250,146C247,144 246,134 250,124Z" fill="#fff3b0"/><rect x="324" y="150" width="12" height="52" rx="3" fill="#ff9ccf"/><ellipse cx="330" cy="132" rx="22" ry="30" fill="#ffd98a" opacity=".25"/><path class="fk" style="animation-delay:0.24s" d="M330,106C340,124 338,146 330,148C322,146 320,124 330,106Z" fill="#ffb347"/><path class="fk" style="animation-delay:0.24s" d="M330,124C334,134 333,144 330,146C327,144 326,134 330,124Z" fill="#fff3b0"/><path class="tw" style="animation-delay:0s" d="M90,78L93,87L102,90L93,93L90,102L87,93L78,90L87,87Z" fill="#ffe7ae"/><path class="tw" style="animation-delay:0.6s" d="M420,98L423,107L432,110L423,113L420,122L417,113L408,110L417,107Z" fill="#ffe7ae"/><path class="tw" style="animation-delay:1.2s" d="M60,208L63,217L72,220L63,223L60,232L57,223L48,220L57,217Z" fill="#ffe7ae"/><path class="tw" style="animation-delay:1.7999999999999998s" d="M450,228L453,237L462,240L453,243L450,252L447,243L438,240L447,237Z" fill="#ffe7ae"/></svg>

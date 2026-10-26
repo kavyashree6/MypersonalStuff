@@ -1,0 +1,66 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<meta name="theme-color" content="#070a24">
+<meta name="robots" content="noindex,nofollow">
+<title>Project: Boyfriend.exe</title>
+<link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<canvas id="sky" aria-hidden="true"></canvas>
+<main>
+  <section id="boot" class="scene" hidden>
+    <div class="term" id="term" aria-live="polite"><p></p><p></p><p></p><p></p></div>
+    <div class="row" id="bootBtns" hidden>
+      <button class="btn" id="yes" type="button">Obviously, yes 😎</button>
+      <button class="btn ghost" id="what" type="button">Wait, what's happening? 🤨</button>
+    </div>
+    <div id="nope" hidden>
+      <p class="nope">Too late. You've already been selected. There is no escape from your girlfriend's birthday production.</p>
+      <div class="row" style="margin:1rem auto 0"><button class="btn" id="fine" type="button">Fine. Continue →</button></div>
+    </div>
+  </section>
+
+  <section id="title" class="scene" hidden>
+    <div class="kenburns" aria-hidden="true"><img id="titleArt" alt=""></div>
+    <h1 class="title" id="tTitle" tabindex="-1"></h1>
+    <p class="sub" id="tSub"></p>
+    <div class="status" id="tStatus"></div>
+    <div class="row"><button class="btn" id="toProfile" type="button">Open the case file →</button></div>
+  </section>
+
+  <section id="profile" class="scene" hidden>
+    <p class="kicker">SCENE ONE</p>
+    <h2 tabindex="-1">Meet the Birthday Boy</h2>
+    <div class="card" style="margin-top:2.6rem">
+      <div class="avatar"><img id="himArt" alt="Illustration of the birthday boy in a party hat"></div>
+      <div class="name" id="himName"></div>
+      <div id="stats"></div>
+      <ul class="jokes" id="jokes" aria-label="Known side effects"></ul>
+    </div>
+    <p class="msg">Congratulations! You've been selected for another year of being my favourite headache.</p>
+    <div class="row"><button class="btn" id="toReel" type="button">Show me the evidence →</button></div>
+  </section>
+
+  <section id="reel" class="scene" hidden>
+    <p class="kicker">THE EVIDENCE</p>
+    <h2 tabindex="-1">Case exhibits</h2>
+    <div class="frame" id="frame"></div>
+    <p class="cap" id="cap" aria-live="polite"></p>
+    <div class="dots" id="dots" aria-hidden="true"></div>
+    <div class="row"><button class="btn" id="next" type="button">Next exhibit →</button></div>
+  </section>
+
+  <section id="outro" class="scene" hidden>
+    <p class="kicker">MISSION UPDATE</p>
+    <h2 tabindex="-1">The investigation continues… offline.</h2>
+    <p class="msg">There are more surprises hidden in the real world. Go find them, and tap everything that looks suspicious.</p>
+    <div class="big-heart" aria-hidden="true">💗</div>
+  </section>
+</main>
+<script type="module" src="js/home.js"></script>
+</body>
+</html>
